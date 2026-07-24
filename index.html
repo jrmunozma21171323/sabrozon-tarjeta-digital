@@ -84,10 +84,10 @@
     flex:1 1 auto;
     min-width:38px;
     background:transparent;
-    border:1px solid #6b5a35;
-    color:#d8c79a;
+    border:1px solid #8a734a;
+    color:#ffffff;
     font-size:0.78rem;
-    font-weight:600;
+    font-weight:700;
     padding:8px 4px;
     border-radius:999px;
     cursor:pointer;
@@ -104,9 +104,10 @@
   @keyframes fadeMenu { from{opacity:0; transform:translateY(4px);} to{opacity:1; transform:translateY(0);} }
   .day-panel h3 {
     margin:0 0 10px;
-    font-size:1.15rem;
-    color:#e8b93f;
-    border-bottom:1px solid rgba(107,90,53,0.4);
+    font-size:1.2rem;
+    font-weight:800;
+    color:#ffffff;
+    border-bottom:2px solid #e8b93f;
     padding-bottom:6px;
   }
   .menu-group-label {
@@ -137,10 +138,11 @@
     display:inline-block;
     margin-top:8px;
     background:#2a2117;
-    border:1px solid #6b5a35;
-    color:#e3d2a3;
-    font-size:0.78rem;
-    padding:4px 10px;
+    border:1px solid #e8b93f;
+    color:#ffffff;
+    font-weight:700;
+    font-size:0.82rem;
+    padding:5px 12px;
     border-radius:6px;
   }
   .opcionales-block {
@@ -156,11 +158,20 @@
     color:#e8b93f;
   }
   .price-note {
-    margin-top:16px;
+    margin-top:18px;
     text-align:center;
-    font-size:0.78rem;
-    color:#b79b5c;
-    font-style:italic;
+    font-size:0.95rem;
+    color:#ffffff;
+    font-weight:800;
+    font-style:normal;
+    display:block;
+  }
+  .price-note span {
+    display:inline-block;
+    background:rgba(232,185,63,0.15);
+    border:1px solid #e8b93f;
+    padding:8px 16px;
+    border-radius:999px;
   }
 
   /* ==== Bloque de pago (Nequi) ==== */
@@ -339,7 +350,7 @@
       </ul>
     </div>
 
-    <p class="price-note">Almuerzos desde $15.000 en adelante</p>
+    <p class="price-note"><span>Almuerzos desde $15.000 en adelante</span></p>
   </div>
 
   <!-- Boton volver arriba -->
